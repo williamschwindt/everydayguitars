@@ -1,0 +1,186 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet" type= "text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <link rel="stylesheet" type="text/css" href="ionicons/docs/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="animate.min.css">
+        <link rel="stylesheet" type="text/css" href="queries.css">
+        <title>Every Day Guitars</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-contents row">
+                    <img src="pictures/logo.png" alt="guitars-symbol" class="logo">
+                    <h1 class="name">EVERY DAY GUITARS</h1>
+                    <ul class="main-nav">
+                        <li><a href="eguitarindex.html">Guitars</a></li>
+                        <li><a href="drumsindex.html">Drums</a></li>
+                        <li><a href="ampsindex.html">Amps</a></li>
+                        <li><a href="gearindex.html">Gear</a></li>
+                        <li><a href="#featured">Featured</a></li>
+                        <li class="find-us"><a href="#find-us">Find Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <a class="dropbtn" onclick = "navClick()"><i class="ion-ios-menu"></i></a>
+            <div class="dropdown col">
+                <ul class="dropdown-content">
+                    <li><a href="eguitarindex.html">Guitars</a></li>
+                    <li><a href="drumsindex.html">Drums</a></li>
+                    <li><a href="ampsindex.html">Amps</a></li>
+                    <li><a href="gearindex.html">Gear</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li class="find-us"><a href="#find-us">Find Us</a></li>
+                </ul>
+            </div>
+            <div class="slash-quote">
+                <div class="col span-1-of-3 row">
+                    <blockquote>Being a rockstar is the intersection of who you are and who you want to be.</blockquote><cite>&mdash; SLASH</cite>
+                </div>  
+            </div>
+            <div class="company-saying row">
+                <h2>GUITARS FOR THE EVERY DAY ROCKER</h2>
+            </div>
+        </header>
+        <section class="featured-items" id="featured">
+            
+            <h1 class="section-title">Featured Items</h1>
+            
+            <div class="g-slideshow">
+                <div class="g-slides">
+                    <input type="radio" name="r" id="r1" checked>
+                    <input type="radio" name="r" id="r2">
+                    <input type="radio" name="r" id="r3">
+                    <div class="g-slide s1">
+                        <img src="pictures/acoustic.png" alt="les paul">
+                        <div class="guitar-info">Martin <br class="break1">LXK2<br>Little Martin - Natural<br><span class="price">$329</span></div>
+                    </div>
+                    <div class="g-slide s2">
+                        <img src="pictures/fender.png" alt="music man">
+                        <div class="guitar-info">PRS John Mayer Silver Sky - Dodgem <br class="break1">Blue<br><span class="price">$2,299</span></div>
+                    </div>
+                    <div class="g-slide s3">
+                        <img src="pictures/js1cr.png" alt="js1cr">
+                        <div class="guitar-info">Ibanez Joe Satriani Signature JS1CR - Chrome Boy<br><span class="price">$4,999</span></div>
+                    </div>
+                    <div class="g-slide s4">
+                        <img src="pictures/music-man.png" alt="js1cr">
+                        <div class="guitar-info">Ernie Ball Music Man John Petrucci Majesty - Blue Honu<br><span class="price">$3,499</span></div>
+                    </div>
+                    <div class="g-slide s5">
+                        <img src="pictures/les-paul.png" alt="js1cr">
+                        <div class="guitar-info row">Gibson Les Paul Standard <br class="break1">60s - Bourbon Burst <br class="break1"><span class="price">$2,699</span></div>
+                    </div>
+                </div>
+                <div class="g-slideshow-nav">
+                    <label for="r1" class="g-bar g-bar1 bar-selected"></label>
+                    <label for="r2" class="g-bar g-bar2"></label>
+                    <label for="r3" class="g-bar g-bar3"></label>
+                </div>
+            </div>
+            
+            
+            
+            <div class="drum-slideshow-nav">
+                    <label for="d1" class="drum-bar bar-selected drum-bar1"></label>
+                    <label for="d2" class="drum-bar drum-bar2"></label>
+                    <label for="d3" class="drum-bar drum-bar3"></label>
+            </div>
+
+            
+            
+            
+            
+            <div class="d-slideshow">
+                <div class="d-slides">
+                    <input type="radio" name="d" id="d1" checked>
+                    <input type="radio" name="d" id="d2">
+                    <input type="radio" name="d" id="d3">
+                    <div class="d-slide d1">
+                        <img src="pictures/drum1.png">
+                        <div class="drum-info">Rogue 5-Piece Complete Drum Set <br>Wine Red<br><span class="price">$299</span></div>
+                    </div>
+                    <div class="d-slide d2">
+                        <img class="drum2" src="pictures/drum2.png">
+                        <div class="drum-info">Ludwig Breakbeats by Questlove 4-Piece Shell Pack Azure Sparkle<br><span class="price">$399</span></div>
+                    </div>
+                    <div class="d-slide d3">
+                        <img src="pictures/drum3.png">
+                        <div class="drum-info">Gretsch Drums Energy 5-Piece Drum Set <br>Blue Sparkle with Hardware and Zildjian Cymbals<br><span class="price">$749</span></div>
+                    </div>
+                </div>
+                 <div class="d-slideshow-nav">
+                    <label for="d1" class="d-bar bar-selected d-bar1"></label>
+                    <label for="d2" class="d-bar d-bar2"></label>
+                    <label for="d3" class="d-bar d-bar3"></label>
+                </div>
+            </div>
+        </section>
+        <section class="section-find-us" id="find-us">
+            <div class="row">
+                <h1 class="section-title">Find Us</h1>
+            </div>
+            <div class="map-container clearfix">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45463.79265172047!2d-121.31986886470125!3d44.092048380804215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54b8ceef22deaa9d%3A0xdeb5b0d3ad96dd6!2s63830%20Clausen%20Rd%20%23100%2C%20Bend%2C%20OR%2097701!5e0!3m2!1sen!2sus!4v1567544289692!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <div class="contact-us">
+                    <div class="call-us">
+                        <h2>Contact Us</h2>
+                        <H5 class="call-us-info">Whether you have questions about gear, pricing, hours, or anything else, our team is ready to answer all your questions</H5>
+                    </div>
+                    <div class="staff">
+                        <div class="person-pic1">
+                            <img src="pictures/customer-1.jpg">
+                            <h5>Jim Halpert <br>- Owner</h5>
+                        </div>
+                        <div class="person-pic2">
+                            <img src="pictures/customer-2.jpg">
+                            <h5>Sam Stevens <br>- Sales Associate</h5>
+                        </div>
+                        <div class="person-pic3">
+                            <img src="pictures/customer-3.jpg">
+                            <h5>Calvin Peterson <br>- Repair Specialist</h5>
+                        </div>
+                    </div>
+                    <div class="phone-email row">
+                        <div class="phone">
+                            <i class="ion-ios-call phone-icon"></i>
+                            <span>(111)-111-1111</span>
+                        </div>
+                        <div class="email">
+                            <i class="ion-ios-mail mail-icon"></i>
+                            <span>everydayguitars@gmail.com</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <footer class="section-footer">
+            <div class="footer-color">
+                <div class="row footer">
+                <div class="copyright">
+                    <p>&copy; EveryDayGuitars - All Rights Reserved</p>
+                </div>
+                <div class="social-media">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-logo-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-logo-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-logo-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-logo-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="jquery.waypoints.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
